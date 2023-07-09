@@ -4,12 +4,12 @@ function NavBar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top p-3">
       <div className="container">
-        <a
-          href="/E-Commerce"
+        <Link
+          to="/E-Commerce"
           className="navbar-brand text-success fs-4 fw-semibold"
         >
           Spicy
-        </a>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -18,7 +18,6 @@ function NavBar() {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-
         <div className="offcanvas offcanvas-end text-bg-dark " id="navbar">
           <div className="offcanvas-header">
             <h5 className="offcanvas-title">Menus</h5>
