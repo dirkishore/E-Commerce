@@ -9,9 +9,9 @@ import ContactUs from "./pages/ContactUs";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter basename="/">
+      <BrowserRouter basename="/E-Commerce">
         <Routes>
-          <Route exact path="/" element={<HomePage />}></Route>
+          <Route exact path="/E-Commerce" element={<HomePage />}></Route>
           <Route path="/AboutPage" element={<AboutPage />}></Route>
           <Route path="/products" element={<ProductPage />} />
           <Route path="/contact" element={<ContactUs />} />
