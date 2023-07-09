@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+* {
+  font-family: Poppins;
+}
+
+.navbar {
+  box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.75);
+}
+
+.active {
+  color: #198754 !important;
+  font-weight: 600;
+}
+
+.home {
+  background: radial-gradient(circle, rgb(0, 0, 0, 0.4), rgb(0, 0, 0, 0.6)),
+    url(./images/bg.jfif) no-repeat center;
+  background-size: cover;
+}
+
+.centerText {
+  font-size: 300%;
+  text-align: center;
+  letter-spacing: 0.3em;
+}
+
+.bg {
+  background-color: #efefef;
+  height: 100%;
+}
+
+.card {
+  background: #efefef;
+  border: none;
+  box-shadow: 15px 20px 20px rgba(0, 0, 0, 0.3), inset 4px 4px 10px white;
+  border-radius: 20px;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+
+.card-body img {
+  width: 200px;
+  height: auto;
+}
+
+.card:hover {
+  box-shadow: inset 10px 10px 10px rgba(0, 0, 0, 0.3),
+    inset -4px -4px 10px white;
+  transition: 0.5s;
+}
