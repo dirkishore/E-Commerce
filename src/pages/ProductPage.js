@@ -1,4 +1,4 @@
-import NavBar from "../components/NavBar";
+import { Link } from "react-router-dom";
 import product1 from "../images/img1.png";
 import product2 from "../images/img2.png";
 import product3 from "../images/img3.png";
@@ -17,10 +17,7 @@ function ProductPage() {
     <>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top p-3">
         <div className="container">
-          <a
-            href="/E-Commerce"
-            className="navbar-brand text-success fs-4 fw-semibold"
-          >
+          <a href="/" className="navbar-brand text-success fs-4 fw-semibold">
             Spicy
           </a>
           <button
@@ -46,24 +43,24 @@ function ProductPage() {
             <div className="offcanvas-body">
               <ul className="navbar-nav mx-auto">
                 <li className="nav-item">
-                  <a href="/E-Commerce" className="nav-link ">
+                  <Link as={Link} className="nav-link" to="/">
                     Home
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a href="/E-Commerce/AboutPage" className="nav-link">
+                  <Link as={Link} className="nav-link " to="/AboutPage">
                     About
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a href="/E-Commerce/products" className="nav-link active">
+                  <Link as={Link} className="nav-link active" to="/products">
                     Product
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a href="/E-Commerce/contact" className="nav-link ">
+                  <Link as={Link} className="nav-link" to="/contact">
                     Contact
-                  </a>
+                  </Link>
                 </li>
               </ul>
               <button className="btn btn-success">Register</button>

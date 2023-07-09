@@ -1,8 +1,13 @@
+import { Link } from "react-router-dom";
+
 function NavBar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top p-3">
       <div className="container">
-        <a href="/" className="navbar-brand text-success fs-4 fw-semibold">
+        <a
+          href="/E-Commerce"
+          className="navbar-brand text-success fs-4 fw-semibold"
+        >
           Spicy
         </a>
         <button
@@ -28,24 +33,24 @@ function NavBar() {
           <div className="offcanvas-body">
             <ul className="navbar-nav mx-auto">
               <li className="nav-item">
-                <a href="/E-Commerce" className="nav-link active">
+                <a href="/" className="nav-link active">
                   Home
                 </a>
               </li>
               <li className="nav-item">
-                <a href="/E-Commerce/AboutPage" className="nav-link">
+                <Link as={Link} className="nav-link" to="/E-Commerce/AboutPage">
                   About
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="/E-Commerce/products" className="nav-link">
+                <Link as={Link} className="nav-link" to="/E-Commerce/products">
                   Product
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="/E-Commerce/contact" className="nav-link">
+                <Link as={Link} className="nav-link" to="/E-Commerce/contact">
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
             <button className="btn btn-success">Register</button>

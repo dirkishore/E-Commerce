@@ -1,5 +1,5 @@
-import NavBar from "../components/NavBar";
 import contact from "../images/contact.jpg";
+import { Link } from "react-router-dom";
 
 function ContactUs() {
   return (
@@ -32,24 +32,24 @@ function ContactUs() {
             <div className="offcanvas-body">
               <ul className="navbar-nav mx-auto">
                 <li className="nav-item">
-                  <a href="/E-Commerce" className="nav-link ">
+                  <Link as={Link} className="nav-link" to="/">
                     Home
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a href="/E-Commerce/AboutPage" className="nav-link">
+                  <Link as={Link} className="nav-link " to="/AboutPage">
                     About
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a href="/E-Commerce/products" className="nav-link">
+                  <Link as={Link} className="nav-link" to="/products">
                     Product
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a href="/E-Commerce/contact" className="nav-link active">
+                  <Link as={Link} className="nav-link active" to="/contact">
                     Contact
-                  </a>
+                  </Link>
                 </li>
               </ul>
               <button className="btn btn-success">Register</button>
