@@ -1,3 +1,11 @@
+﻿# E-Commerce site
+
+ It is a Front end E-commerce application where we can buy any spices in one place. It's only contains the UI part.
+
+![Home page](https://github.com/dirkishore/Spicy_E-Commerce_Site/assets/99469638/dec2d27f-5563-4d0e-8e18-ec778f8f9181)
+![Product Page](https://github.com/dirkishore/Spicy_E-Commerce_Site/assets/99469638/a010c4a2-a09f-4333-8bbc-c99199d89731)
+![Contact Us](https://github.com/dirkishore/Spicy_E-Commerce_Site/assets/99469638/c726090d-da78-4cb6-9eac-4a17403617da)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
