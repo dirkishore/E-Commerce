@@ -8,7 +8,7 @@ import ContactUs from "./pages/ContactUs";
 function App() {
   return (
     <div className="App">
-      hii
+      <HomePage />
       <Routes>
         <Route exact path="/" element={<HomePage />}></Route>
         <Route exact path="/AboutPage" element={<AboutPage />}></Route>
