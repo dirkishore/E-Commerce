@@ -17,7 +17,10 @@ function ProductPage() {
     <>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top p-3">
         <div className="container">
-          <a href="/" className="navbar-brand text-success fs-4 fw-semibold">
+          <a
+            href="/E-Commerce"
+            className="navbar-brand text-success fs-4 fw-semibold"
+          >
             Spicy
           </a>
           <button
@@ -43,22 +46,22 @@ function ProductPage() {
             <div className="offcanvas-body">
               <ul className="navbar-nav mx-auto">
                 <li className="nav-item">
-                  <a href="/" className="nav-link ">
+                  <a href="/E-Commerce" className="nav-link ">
                     Home
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a href="/AboutPage" className="nav-link">
+                  <a href="/E-Commerce/AboutPage" className="nav-link">
                     About
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a href="/products" className="nav-link active">
+                  <a href="/E-Commerce/products" className="nav-link active">
                     Product
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a href="/contact" className="nav-link ">
+                  <a href="/E-Commerce/contact" className="nav-link ">
                     Contact
                   </a>
                 </li>

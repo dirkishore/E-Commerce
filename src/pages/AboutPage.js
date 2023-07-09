@@ -32,22 +32,22 @@ function AboutPage() {
             <div className="offcanvas-body">
               <ul className="navbar-nav mx-auto">
                 <li className="nav-item">
-                  <a href="/" className="nav-link ">
+                  <a href="/E-Commerce" className="nav-link ">
                     Home
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a href="/AboutPage" className="nav-link active">
+                  <a href="/E-Commerce/AboutPage" className="nav-link active">
                     About
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a href="/products" className="nav-link">
+                  <a href="/E-Commerce/products" className="nav-link">
                     Product
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a href="/contact" className="nav-link">
+                  <a href="/E-Commerce/contact" className="nav-link">
                     Contact
                   </a>
                 </li>
